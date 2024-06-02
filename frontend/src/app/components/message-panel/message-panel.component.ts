@@ -9,5 +9,5 @@ import { IOption } from '../../models/option';
   styles: ``,
 })
 export class MessagePanelComponent {
-  @Input() turn: IOption = IOption.Nill;
+  @Input() text: string;
 }
