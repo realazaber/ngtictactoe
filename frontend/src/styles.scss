@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  a {
+    @apply flex gap-x-1;
+  }
+
+  #game-grid {
+    button {
+      @apply w-24 sm:w-32 aspect-square rounded-sm bg-primary text-accent hover:cursor-pointer flex justify-center items-center text-7xl sm:text-9xl;
+    }
+  }
+}
